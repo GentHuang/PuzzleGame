@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCCA7D301BF334DF00B997D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCA7D2F1BF334DF00B997D3 /* main.m */; };
+		BCCA7D331BF334DF00B997D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCA7D321BF334DF00B997D3 /* AppDelegate.m */; };
+		BCCA7D351BF334DF00B997D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D341BF334DF00B997D3 /* Images.xcassets */; };
+		BCCA7D381BF334DF00B997D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D361BF334DF00B997D3 /* LaunchScreen.xib */; };
+		BCCA7D441BF334DF00B997D3 /* Project___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCA7D431BF334DF00B997D3 /* Project___Tests.m */; };
+		BCCA7D4F1BF3351E00B997D3 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCA7D4E1BF3351E00B997D3 /* GameViewController.m */; };
+		BCCA7D6F1BF33E5C00B997D3 /* 美女01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D561BF33E5C00B997D3 /* 美女01.jpg */; };
+		BCCA7D701BF33E5C00B997D3 /* 美女02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D571BF33E5C00B997D3 /* 美女02.jpg */; };
+		BCCA7D711BF33E5C00B997D3 /* 美女03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D581BF33E5C00B997D3 /* 美女03.jpg */; };
+		BCCA7D721BF33E5C00B997D3 /* 美女04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D591BF33E5C00B997D3 /* 美女04.jpg */; };
+		BCCA7D731BF33E5C00B997D3 /* 美女05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D5A1BF33E5C00B997D3 /* 美女05.jpg */; };
+		BCCA7D741BF33E5C00B997D3 /* 美女06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D5B1BF33E5C00B997D3 /* 美女06.jpg */; };
+		BCCA7D751BF33E5C00B997D3 /* 美女07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D5C1BF33E5C00B997D3 /* 美女07.jpg */; };
+		BCCA7D761BF33E5C00B997D3 /* 美女08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D5D1BF33E5C00B997D3 /* 美女08.jpg */; };
+		BCCA7D771BF33E5C00B997D3 /* 美女09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D5E1BF33E5C00B997D3 /* 美女09.jpg */; };
+		BCCA7D781BF33E5C00B997D3 /* 美女10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D5F1BF33E5C00B997D3 /* 美女10.jpg */; };
+		BCCA7D791BF33E5C00B997D3 /* 美女11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D601BF33E5C00B997D3 /* 美女11.jpg */; };
+		BCCA7D7A1BF33E5C00B997D3 /* 美女12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D611BF33E5C00B997D3 /* 美女12.jpg */; };
+		BCCA7D7B1BF33E5C00B997D3 /* 美女13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D621BF33E5C00B997D3 /* 美女13.jpg */; };
+		BCCA7D7C1BF33E5C00B997D3 /* 美女14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D631BF33E5C00B997D3 /* 美女14.jpg */; };
+		BCCA7D7D1BF33E5C00B997D3 /* 美女15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D641BF33E5C00B997D3 /* 美女15.jpg */; };
+		BCCA7D7E1BF33E5C00B997D3 /* 美女16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D651BF33E5C00B997D3 /* 美女16.jpg */; };
+		BCCA7D7F1BF33E5C00B997D3 /* 美女17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D661BF33E5C00B997D3 /* 美女17.jpg */; };
+		BCCA7D801BF33E5C00B997D3 /* 美女18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D671BF33E5C00B997D3 /* 美女18.jpg */; };
+		BCCA7D811BF33E5C00B997D3 /* 美女19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D681BF33E5C00B997D3 /* 美女19.jpg */; };
+		BCCA7D821BF33E5C00B997D3 /* 美女20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D691BF33E5C00B997D3 /* 美女20.jpg */; };
+		BCCA7D831BF33E5C00B997D3 /* 美女21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D6A1BF33E5C00B997D3 /* 美女21.jpg */; };
+		BCCA7D841BF33E5C00B997D3 /* 美女22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D6B1BF33E5C00B997D3 /* 美女22.jpg */; };
+		BCCA7D851BF33E5C00B997D3 /* 美女23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D6C1BF33E5C00B997D3 /* 美女23.jpg */; };
+		BCCA7D861BF33E5C00B997D3 /* 美女24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D6D1BF33E5C00B997D3 /* 美女24.jpg */; };
+		BCCA7D871BF33E5C00B997D3 /* 美女25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCCA7D6E1BF33E5C00B997D3 /* 美女25.jpg */; };
+		BCCA7D8A1BF373E000B997D3 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCA7D891BF373E000B997D3 /* ResultViewController.m */; };
+		BCCA7D8E1BF3759200B997D3 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCA7D8D1BF3759200B997D3 /* WelcomeViewController.m */; };
+		BCCA7D911BF37A6100B997D3 /* FinalResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCA7D901BF37A6100B997D3 /* FinalResultViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCCA7D3E1BF334DF00B997D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCCA7D221BF334DF00B997D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCCA7D291BF334DF00B997D3;
+			remoteInfo = "Project-拼图";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCCA7D2A1BF334DF00B997D3 /* Project-拼图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project-拼图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCA7D2E1BF334DF00B997D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCA7D2F1BF334DF00B997D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCCA7D311BF334DF00B997D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCCA7D321BF334DF00B997D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCCA7D341BF334DF00B997D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCCA7D371BF334DF00B997D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BCCA7D3D1BF334DF00B997D3 /* Project-拼图Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project-拼图Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCA7D421BF334DF00B997D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCA7D431BF334DF00B997D3 /* Project___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Project___Tests.m"; sourceTree = "<group>"; };
+		BCCA7D4D1BF3351E00B997D3 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = "Project-拼图/GameViewController.h"; sourceTree = "<group>"; };
+		BCCA7D4E1BF3351E00B997D3 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = "Project-拼图/GameViewController.m"; sourceTree = "<group>"; };
+		BCCA7D561BF33E5C00B997D3 /* 美女01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女01.jpg"; sourceTree = "<group>"; };
+		BCCA7D571BF33E5C00B997D3 /* 美女02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女02.jpg"; sourceTree = "<group>"; };
+		BCCA7D581BF33E5C00B997D3 /* 美女03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女03.jpg"; sourceTree = "<group>"; };
+		BCCA7D591BF33E5C00B997D3 /* 美女04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女04.jpg"; sourceTree = "<group>"; };
+		BCCA7D5A1BF33E5C00B997D3 /* 美女05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女05.jpg"; sourceTree = "<group>"; };
+		BCCA7D5B1BF33E5C00B997D3 /* 美女06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女06.jpg"; sourceTree = "<group>"; };
+		BCCA7D5C1BF33E5C00B997D3 /* 美女07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女07.jpg"; sourceTree = "<group>"; };
+		BCCA7D5D1BF33E5C00B997D3 /* 美女08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女08.jpg"; sourceTree = "<group>"; };
+		BCCA7D5E1BF33E5C00B997D3 /* 美女09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女09.jpg"; sourceTree = "<group>"; };
+		BCCA7D5F1BF33E5C00B997D3 /* 美女10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女10.jpg"; sourceTree = "<group>"; };
+		BCCA7D601BF33E5C00B997D3 /* 美女11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女11.jpg"; sourceTree = "<group>"; };
+		BCCA7D611BF33E5C00B997D3 /* 美女12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女12.jpg"; sourceTree = "<group>"; };
+		BCCA7D621BF33E5C00B997D3 /* 美女13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女13.jpg"; sourceTree = "<group>"; };
+		BCCA7D631BF33E5C00B997D3 /* 美女14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女14.jpg"; sourceTree = "<group>"; };
+		BCCA7D641BF33E5C00B997D3 /* 美女15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女15.jpg"; sourceTree = "<group>"; };
+		BCCA7D651BF33E5C00B997D3 /* 美女16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女16.jpg"; sourceTree = "<group>"; };
+		BCCA7D661BF33E5C00B997D3 /* 美女17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女17.jpg"; sourceTree = "<group>"; };
+		BCCA7D671BF33E5C00B997D3 /* 美女18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女18.jpg"; sourceTree = "<group>"; };
+		BCCA7D681BF33E5C00B997D3 /* 美女19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女19.jpg"; sourceTree = "<group>"; };
+		BCCA7D691BF33E5C00B997D3 /* 美女20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女20.jpg"; sourceTree = "<group>"; };
+		BCCA7D6A1BF33E5C00B997D3 /* 美女21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女21.jpg"; sourceTree = "<group>"; };
+		BCCA7D6B1BF33E5C00B997D3 /* 美女22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女22.jpg"; sourceTree = "<group>"; };
+		BCCA7D6C1BF33E5C00B997D3 /* 美女23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女23.jpg"; sourceTree = "<group>"; };
+		BCCA7D6D1BF33E5C00B997D3 /* 美女24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女24.jpg"; sourceTree = "<group>"; };
+		BCCA7D6E1BF33E5C00B997D3 /* 美女25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美女25.jpg"; sourceTree = "<group>"; };
+		BCCA7D881BF373E000B997D3 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultViewController.h; path = "美女/ResultViewController.h"; sourceTree = "<group>"; };
+		BCCA7D891BF373E000B997D3 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultViewController.m; path = "美女/ResultViewController.m"; sourceTree = "<group>"; };
+		BCCA7D8C1BF3759200B997D3 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		BCCA7D8D1BF3759200B997D3 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		BCCA7D8F1BF37A6100B997D3 /* FinalResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalResultViewController.h; sourceTree = "<group>"; };
+		BCCA7D901BF37A6100B997D3 /* FinalResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalResultViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCCA7D271BF334DF00B997D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCA7D3A1BF334DF00B997D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCCA7D211BF334DF00B997D3 = {
+			isa = PBXGroup;
+			children = (
+				BCCA7D8B1BF373EC00B997D3 /* class */,
+				BCCA7D551BF33E5C00B997D3 /* 美女 */,
+				BCCA7D2C1BF334DF00B997D3 /* Project-拼图 */,
+				BCCA7D401BF334DF00B997D3 /* Project-拼图Tests */,
+				BCCA7D2B1BF334DF00B997D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCCA7D2B1BF334DF00B997D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCCA7D2A1BF334DF00B997D3 /* Project-拼图.app */,
+				BCCA7D3D1BF334DF00B997D3 /* Project-拼图Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCCA7D2C1BF334DF00B997D3 /* Project-拼图 */ = {
+			isa = PBXGroup;
+			children = (
+				BCCA7D311BF334DF00B997D3 /* AppDelegate.h */,
+				BCCA7D321BF334DF00B997D3 /* AppDelegate.m */,
+				BCCA7D341BF334DF00B997D3 /* Images.xcassets */,
+				BCCA7D361BF334DF00B997D3 /* LaunchScreen.xib */,
+				BCCA7D2D1BF334DF00B997D3 /* Supporting Files */,
+			);
+			path = "Project-拼图";
+			sourceTree = "<group>";
+		};
+		BCCA7D2D1BF334DF00B997D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCCA7D2E1BF334DF00B997D3 /* Info.plist */,
+				BCCA7D2F1BF334DF00B997D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCCA7D401BF334DF00B997D3 /* Project-拼图Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BCCA7D431BF334DF00B997D3 /* Project___Tests.m */,
+				BCCA7D411BF334DF00B997D3 /* Supporting Files */,
+			);
+			path = "Project-拼图Tests";
+			sourceTree = "<group>";
+		};
+		BCCA7D411BF334DF00B997D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCCA7D421BF334DF00B997D3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCCA7D551BF33E5C00B997D3 /* 美女 */ = {
+			isa = PBXGroup;
+			children = (
+				BCCA7D561BF33E5C00B997D3 /* 美女01.jpg */,
+				BCCA7D571BF33E5C00B997D3 /* 美女02.jpg */,
+				BCCA7D581BF33E5C00B997D3 /* 美女03.jpg */,
+				BCCA7D591BF33E5C00B997D3 /* 美女04.jpg */,
+				BCCA7D5A1BF33E5C00B997D3 /* 美女05.jpg */,
+				BCCA7D5B1BF33E5C00B997D3 /* 美女06.jpg */,
+				BCCA7D5C1BF33E5C00B997D3 /* 美女07.jpg */,
+				BCCA7D5D1BF33E5C00B997D3 /* 美女08.jpg */,
+				BCCA7D5E1BF33E5C00B997D3 /* 美女09.jpg */,
+				BCCA7D5F1BF33E5C00B997D3 /* 美女10.jpg */,
+				BCCA7D601BF33E5C00B997D3 /* 美女11.jpg */,
+				BCCA7D611BF33E5C00B997D3 /* 美女12.jpg */,
+				BCCA7D621BF33E5C00B997D3 /* 美女13.jpg */,
+				BCCA7D631BF33E5C00B997D3 /* 美女14.jpg */,
+				BCCA7D641BF33E5C00B997D3 /* 美女15.jpg */,
+				BCCA7D651BF33E5C00B997D3 /* 美女16.jpg */,
+				BCCA7D661BF33E5C00B997D3 /* 美女17.jpg */,
+				BCCA7D671BF33E5C00B997D3 /* 美女18.jpg */,
+				BCCA7D681BF33E5C00B997D3 /* 美女19.jpg */,
+				BCCA7D691BF33E5C00B997D3 /* 美女20.jpg */,
+				BCCA7D6A1BF33E5C00B997D3 /* 美女21.jpg */,
+				BCCA7D6B1BF33E5C00B997D3 /* 美女22.jpg */,
+				BCCA7D6C1BF33E5C00B997D3 /* 美女23.jpg */,
+				BCCA7D6D1BF33E5C00B997D3 /* 美女24.jpg */,
+				BCCA7D6E1BF33E5C00B997D3 /* 美女25.jpg */,
+			);
+			path = "美女";
+			sourceTree = "<group>";
+		};
+		BCCA7D8B1BF373EC00B997D3 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				BCCA7D4D1BF3351E00B997D3 /* GameViewController.h */,
+				BCCA7D4E1BF3351E00B997D3 /* GameViewController.m */,
+				BCCA7D881BF373E000B997D3 /* ResultViewController.h */,
+				BCCA7D891BF373E000B997D3 /* ResultViewController.m */,
+				BCCA7D8C1BF3759200B997D3 /* WelcomeViewController.h */,
+				BCCA7D8D1BF3759200B997D3 /* WelcomeViewController.m */,
+				BCCA7D8F1BF37A6100B997D3 /* FinalResultViewController.h */,
+				BCCA7D901BF37A6100B997D3 /* FinalResultViewController.m */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCCA7D291BF334DF00B997D3 /* Project-拼图 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCA7D471BF334DF00B997D3 /* Build configuration list for PBXNativeTarget "Project-拼图" */;
+			buildPhases = (
+				BCCA7D261BF334DF00B997D3 /* Sources */,
+				BCCA7D271BF334DF00B997D3 /* Frameworks */,
+				BCCA7D281BF334DF00B997D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project-拼图";
+			productName = "Project-拼图";
+			productReference = BCCA7D2A1BF334DF00B997D3 /* Project-拼图.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCCA7D3C1BF334DF00B997D3 /* Project-拼图Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCA7D4A1BF334DF00B997D3 /* Build configuration list for PBXNativeTarget "Project-拼图Tests" */;
+			buildPhases = (
+				BCCA7D391BF334DF00B997D3 /* Sources */,
+				BCCA7D3A1BF334DF00B997D3 /* Frameworks */,
+				BCCA7D3B1BF334DF00B997D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCCA7D3F1BF334DF00B997D3 /* PBXTargetDependency */,
+			);
+			name = "Project-拼图Tests";
+			productName = "Project-拼图Tests";
+			productReference = BCCA7D3D1BF334DF00B997D3 /* Project-拼图Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCCA7D221BF334DF00B997D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = mxl;
+				TargetAttributes = {
+					BCCA7D291BF334DF00B997D3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					BCCA7D3C1BF334DF00B997D3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = BCCA7D291BF334DF00B997D3;
+					};
+				};
+			};
+			buildConfigurationList = BCCA7D251BF334DF00B997D3 /* Build configuration list for PBXProject "Project-拼图" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCCA7D211BF334DF00B997D3;
+			productRefGroup = BCCA7D2B1BF334DF00B997D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCCA7D291BF334DF00B997D3 /* Project-拼图 */,
+				BCCA7D3C1BF334DF00B997D3 /* Project-拼图Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCCA7D281BF334DF00B997D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCA7D381BF334DF00B997D3 /* LaunchScreen.xib in Resources */,
+				BCCA7D801BF33E5C00B997D3 /* 美女18.jpg in Resources */,
+				BCCA7D7B1BF33E5C00B997D3 /* 美女13.jpg in Resources */,
+				BCCA7D781BF33E5C00B997D3 /* 美女10.jpg in Resources */,
+				BCCA7D841BF33E5C00B997D3 /* 美女22.jpg in Resources */,
+				BCCA7D711BF33E5C00B997D3 /* 美女03.jpg in Resources */,
+				BCCA7D851BF33E5C00B997D3 /* 美女23.jpg in Resources */,
+				BCCA7D6F1BF33E5C00B997D3 /* 美女01.jpg in Resources */,
+				BCCA7D861BF33E5C00B997D3 /* 美女24.jpg in Resources */,
+				BCCA7D701BF33E5C00B997D3 /* 美女02.jpg in Resources */,
+				BCCA7D7A1BF33E5C00B997D3 /* 美女12.jpg in Resources */,
+				BCCA7D7F1BF33E5C00B997D3 /* 美女17.jpg in Resources */,
+				BCCA7D751BF33E5C00B997D3 /* 美女07.jpg in Resources */,
+				BCCA7D821BF33E5C00B997D3 /* 美女20.jpg in Resources */,
+				BCCA7D731BF33E5C00B997D3 /* 美女05.jpg in Resources */,
+				BCCA7D771BF33E5C00B997D3 /* 美女09.jpg in Resources */,
+				BCCA7D791BF33E5C00B997D3 /* 美女11.jpg in Resources */,
+				BCCA7D831BF33E5C00B997D3 /* 美女21.jpg in Resources */,
+				BCCA7D761BF33E5C00B997D3 /* 美女08.jpg in Resources */,
+				BCCA7D721BF33E5C00B997D3 /* 美女04.jpg in Resources */,
+				BCCA7D7E1BF33E5C00B997D3 /* 美女16.jpg in Resources */,
+				BCCA7D7D1BF33E5C00B997D3 /* 美女15.jpg in Resources */,
+				BCCA7D871BF33E5C00B997D3 /* 美女25.jpg in Resources */,
+				BCCA7D7C1BF33E5C00B997D3 /* 美女14.jpg in Resources */,
+				BCCA7D741BF33E5C00B997D3 /* 美女06.jpg in Resources */,
+				BCCA7D811BF33E5C00B997D3 /* 美女19.jpg in Resources */,
+				BCCA7D351BF334DF00B997D3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCA7D3B1BF334DF00B997D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCCA7D261BF334DF00B997D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCA7D8E1BF3759200B997D3 /* WelcomeViewController.m in Sources */,
+				BCCA7D331BF334DF00B997D3 /* AppDelegate.m in Sources */,
+				BCCA7D4F1BF3351E00B997D3 /* GameViewController.m in Sources */,
+				BCCA7D301BF334DF00B997D3 /* main.m in Sources */,
+				BCCA7D911BF37A6100B997D3 /* FinalResultViewController.m in Sources */,
+				BCCA7D8A1BF373E000B997D3 /* ResultViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCA7D391BF334DF00B997D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCA7D441BF334DF00B997D3 /* Project___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCCA7D3F1BF334DF00B997D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCCA7D291BF334DF00B997D3 /* Project-拼图 */;
+			targetProxy = BCCA7D3E1BF334DF00B997D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCCA7D361BF334DF00B997D3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCA7D371BF334DF00B997D3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCCA7D451BF334DF00B997D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCCA7D461BF334DF00B997D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCCA7D481BF334DF00B997D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project-拼图/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCCA7D491BF334DF00B997D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project-拼图/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCCA7D4B1BF334DF00B997D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Project-拼图Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project-拼图.app/Project-拼图";
+			};
+			name = Debug;
+		};
+		BCCA7D4C1BF334DF00B997D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Project-拼图Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project-拼图.app/Project-拼图";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCCA7D251BF334DF00B997D3 /* Build configuration list for PBXProject "Project-拼图" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCA7D451BF334DF00B997D3 /* Debug */,
+				BCCA7D461BF334DF00B997D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCCA7D471BF334DF00B997D3 /* Build configuration list for PBXNativeTarget "Project-拼图" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCA7D481BF334DF00B997D3 /* Debug */,
+				BCCA7D491BF334DF00B997D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCCA7D4A1BF334DF00B997D3 /* Build configuration list for PBXNativeTarget "Project-拼图Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCA7D4B1BF334DF00B997D3 /* Debug */,
+				BCCA7D4C1BF334DF00B997D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCCA7D221BF334DF00B997D3 /* Project object */;
+}
